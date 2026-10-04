@@ -1,6 +1,6 @@
 # AI Agent Config
 
-![License](https://img.shields.io/github/license/iam74k4/ai-agent-config)
+![License](https://img.shields.io/github/license/iam74k4/Tool-AgentConfig)
 
 Shared rules and local bootstrap tooling for Cursor, Claude Code, and GitHub Copilot.
 
@@ -11,7 +11,7 @@ Git is required. Every other tool in the requirements table below is optional an
 1. Clone the repository next to the repositories you work with.
 
    ```bash
-   git clone https://github.com/iam74k4/ai-agent-config.git
+   git clone https://github.com/iam74k4/Tool-AgentConfig.git
    cd ai-agent-config
    ```
 
