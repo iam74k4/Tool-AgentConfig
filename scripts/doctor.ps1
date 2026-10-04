@@ -32,7 +32,7 @@ function Write-Fail([string]$Message) {
 function Test-Command([string]$Name) {
     $command = Get-Command $Name -ErrorAction SilentlyContinue
     if ($command) {
-        Write-Pass "$Name: $($command.Source)"
+        Write-Pass "${Name}: $($command.Source)"
     } else {
         Write-Warn "$Name is not available"
     }
